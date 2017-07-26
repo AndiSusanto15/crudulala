@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Jul 26, 2017 at 12:48 PM
+-- Generation Time: Jul 26, 2017 at 01:30 PM
 -- Server version: 5.5.42
 -- PHP Version: 5.6.10
 
@@ -26,7 +26,7 @@ CREATE TABLE `siswa` (
   `kelamin_siswa` varchar(25) NOT NULL,
   `alamat_siswa` text NOT NULL,
   `foto_siswa` varchar(100) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `siswa`
@@ -38,7 +38,8 @@ INSERT INTO `siswa` (`id_siswa`, `nama_siswa`, `kelamin_siswa`, `alamat_siswa`, 
 (20, 'Fandy Hafidz Aja', 'perempuan', 'Purbalingga', '2017_07_25_11_07_25_joko bodo.jpeg'),
 (21, 'Bobo', 'laki-laki', 'Mars', '2017_07_25_11_07_25_yemott.jpg'),
 (22, 'Punkaz Singa Singa', 'laki-laki', 'gambiran bersatu', '2017_07_25_12_07_25_xixixii.jpg'),
-(23, 'Stich Ulala', 'perempuan', 'Planet Namex', '2017_07_25_14_07_25_Stich.gif');
+(23, 'Stich Ulala', 'perempuan', 'Planet Namex', '2017_07_25_14_07_25_Stich.gif'),
+(24, 'Reza Sidharta', 'laki-laki', 'Namex wkwkwkLand', '2017_07_26_13_07_26_haha spiderman.jpg');
 
 --
 -- Indexes for dumped tables
@@ -58,4 +59,4 @@ ALTER TABLE `siswa`
 -- AUTO_INCREMENT for table `siswa`
 --
 ALTER TABLE `siswa`
-  MODIFY `id_siswa` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
+  MODIFY `id_siswa` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=25;
