@@ -22,7 +22,7 @@
 						<th class="text-center">Nama</th>
 						<th class="text-center">Jenis Kelamin</th>
 						<th class="text-center">Alamat</th>
-						<th class="text-center">Foto</th>
+						<!-- <th class="text-center">Foto</th> -->
 						<th class="text-center">Pilihan</th>
 					</tr>
 				</thead>
@@ -34,7 +34,7 @@
 							<td><?php echo $val["nama_siswa"]; ?></td>
 							<td><?php echo $val["kelamin_siswa"]; ?></td>
 							<td><?php echo $val["alamat_siswa"]; ?></td>
-							<td><?php echo $val["foto_siswa"]; ?></td>
+							<!-- <td><?php echo $val["foto_siswa"]; ?></td> -->
 							<td><div class="text-center"><a class="btn btn-danger" href="hapussiswa.php?id=<?php echo $val["id_siswa"]; ?>">Hapus</a> <a href="ubahsiswa.php?id=<?php echo $val["id_siswa"]; ?>" class="btn btn-warning">Ubah</a></div></td>
 						</tr>
 					<?php endforeach ?>
