@@ -56,7 +56,7 @@ $detailsiswa = $siswa->ambil_siswa($idsiswa);
 				if ($hasil=="sukses") 
 				{
 					echo "<script>alert('Data berhasil di ubah');</script>";
-					echo "<script>location='tampilsiswa.php';</script>";
+					echo "<script>location='index.php';</script>";
 				}
 					// selain itu jika gagal
 				else

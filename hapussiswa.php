@@ -7,5 +7,5 @@
 	// obyek siswa mengakses fungsi hapus_siswa(yang id nya ada di url)
 	$siswa->hapus_siswa($_GET['id']);
 	echo "<script>alert('Data Berhasil di hapus')</script>";
-	echo "<script>location='tampilsiswa.php'</script>";
+	echo "<script>location='index.php'</script>";
 ?>

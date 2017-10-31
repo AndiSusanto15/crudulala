@@ -52,7 +52,7 @@ include 'class.php';
 						// jika output  hasil == sukses mka tampilkan pesan
 					if ($hasil=="sukses") {
 						echo "<script>alert('Data telah berhasil di tambah');</script>";
-						echo "<script>location='tampilsiswa.php'</script>";
+						echo "<script>location='index.php'</script>";
 					}
 					else
 					{
